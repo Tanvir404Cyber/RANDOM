@@ -359,7 +359,7 @@ def Settings():
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
 	print(f'\x1b[1;91m●\x1b[1;92m═━═━═━═━═━═━═━═━═━═━═━═\x1b[1;91m❴\033[47m\033[1;30mMX\033[40m\033[00m\x1b[1;91m❵\x1b[1;92m═━═━═━═━═━═━═━═━═━═━═━═\x1b[1;91m●')
-	print(f"\x1b[1;91m [😍] \x1b[1;92mYOUR NAME         \x1b[1;91m➢ \x1b[1;92m"+str(TANVIR_NAME))
+	print(f"\x1b[1;91m [😍] \x1b[1;92mYOUR NAME         \x1b[1;91m➢ \x1b[1;92m"+str(MAMUN_NAME))
 	print(f"\x1b[1;91m [🚀] \x1b[1;92mTOTAL ID          \x1b[1;91m➢ \x1b[1;92m"+str(len(id)))
 	print(f"\x1b[1;91m [💉] \x1b[1;92mTODAY TIME        \x1b[1;91m➢ \x1b[1;92m"+str(a)+":"+str(lt()[4])+" "+ tag+" ")
 	print(f"\x1b[1;91m [💉] \x1b[1;92mTODAY DATE        \x1b[1;91m➢ \x1b[1;92m{ha}\x1b[1;91m/\x1b[1;92m{bu}\x1b[1;91m/\x1b[1;92m{ta} ")
@@ -460,7 +460,7 @@ def RMX():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "≠".join(uuid)
   try:
-    
+    httpCaht = requests.get('https://github.com/Tanvir404cyber.Approval.txt).text
     if id in httpCaht:
       msg = str(os.geteuid())
       time.sleep(0.3)
@@ -468,10 +468,10 @@ def RMX():
       pass
     else:
       print('\033[1;36m┏─────────────────────────────────────────┓')
-      print('\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] \033[1;32mThis Is FREE Tools Enjoy 💚')
+      print('\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] \033[1;32mThis Is Paid Tools Enjoy 💚')
       print("\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] \033[1;38mYOUR KEY :\033[1;32m MX="+id)
       print('\033[1;36m┗─────────────────────────────────────────┛')
-      os.system('xdg-open https://wa.me/+880192459441)
+      os.system('xdg-open https://wa.me/+8801304906886')
       time.sleep(3)
       sys.exit()
   except:
